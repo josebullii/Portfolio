@@ -1,0 +1,22 @@
+Paleta de colores
+
+Fondo#101827
+
+Superficie#1E293B
+
+Texto#F8FAFC
+
+Azul#3B82F6
+
+Verde#22C55E
+
+Tipografía
+- Inter: textos y contenido.
+- Space Grotesk: títulos y encabezados.
+Detalles visuales
+- Modo oscuro.
+- Bordes finos y discretos.
+- Animaciones suaves al hacer scroll.
+- Iconos minimalistas.
+- Tarjetas con hover.
+- Diseño adaptable a móviles.
