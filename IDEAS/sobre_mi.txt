@@ -1,9 +1,0 @@
-Nombre: Jose Pulido Díaz
-Alias: Bulli
-
-Estudiante de Ingeniería Informática en la Universidad de Jaén
-Inglés -> Nivel C1 por la EOI (Escuela Oficial de Idiomas)
-Francés -> Nivel B1 por la EOI (Escuela Oficial de Idiomas)
-
-Proyectos:
-- Actualmente me encuentro desarrollando la aplicación web olivia-agro.com 

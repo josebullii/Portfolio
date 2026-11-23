@@ -3,7 +3,10 @@ import { contact, profile } from '../data'
 
 function Contact() {
   const links = [
-    contact.email && { label: contact.email, href: `mailto:${contact.email}` },
+    contact.email && {
+      label: 'Gmail',
+      href: `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(contact.email)}`,
+    },
     contact.github && { label: 'GitHub', href: contact.github },
     contact.linkedin && { label: 'LinkedIn', href: contact.linkedin },
   ].filter(Boolean) as { label: string; href: string }[]
@@ -24,7 +27,7 @@ function Contact() {
                 <a
                   key={link.href}
                   href={link.href}
-                  target={link.href.startsWith('mailto:') ? undefined : '_blank'}
+                  target="_blank"
                   rel="noreferrer"
                   className={`btn ${i === 0 ? 'btn--primary' : 'btn--ghost'}`}
                 >

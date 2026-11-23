@@ -2,7 +2,7 @@
 
 Portfolio profesional personal construido con **React + TypeScript + Vite**, pensado para presentar mi perfil, mis proyectos y mis competencias técnicas. Se publicará en **Cloudflare Pages** a partir de este repositorio de GitHub.
 
-> Estado actual: **v0.2.0** — primera versión: página única con Inicio, Sobre mí, Proyectos y Contacto. Ver [change_logs.md](./change_logs.md).
+> Estado actual: **v0.3.1** — primera versión: página única con Inicio, Sobre mí, Proyectos y Contacto. Ver [change_logs.md](./change_logs.md).
 
 ## Stack
 

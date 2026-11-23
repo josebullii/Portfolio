@@ -1,4 +1,4 @@
-/* Estilos globales — v0.2.0 */
+/* Estilos globales — v0.3.0 */
 
 :root {
   --bg: #101827;
@@ -27,6 +27,12 @@
 
 html {
   scroll-padding-top: var(--nav-h);
+  /* Oculta la barra de desplazamiento lateral (el scroll sigue funcionando) */
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 html,
@@ -404,6 +410,13 @@ p {
   margin-bottom: 0.5rem;
 }
 
+.plain-link,
+.plain-link:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: text;
+}
+
 .terminal__muted b {
   color: var(--text);
   font-weight: 500;
@@ -673,12 +686,17 @@ p {
     padding: 0 16px;
   }
 
+  .navbar__inner {
+    gap: 0.75rem;
+  }
+
   .navbar__cta {
-    display: none;
+    margin-left: auto;
   }
 
   .navbar__toggle {
     display: inline-flex;
+    margin-left: 0;
   }
 
   .nav {

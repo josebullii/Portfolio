@@ -30,7 +30,7 @@ function Navbar() {
         </nav>
 
         <a href="#contacto" className="btn btn--light navbar__cta">
-          Hablemos
+          Contacto
         </a>
 
         <button

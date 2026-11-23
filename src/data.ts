@@ -16,7 +16,6 @@ export const navItems = [
   { id: 'inicio', label: 'Inicio' },
   { id: 'sobre-mi', label: 'Sobre mí' },
   { id: 'proyectos', label: 'Proyectos' },
-  { id: 'contacto', label: 'Contacto' },
 ] as const
 
 export const languages = [
@@ -45,7 +44,7 @@ export const education = [
 
 export const projects = [
   {
-    name: 'Olivia Agro',
+    name: 'Olivia',
     url: 'https://olivia-agro.com',
     status: 'En desarrollo',
     description:

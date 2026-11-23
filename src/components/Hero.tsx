@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowUpRight } from 'lucide-react'
+import { ArrowDown } from 'lucide-react'
 import { languages, profile, projects } from '../data'
 
 function Hero() {
@@ -7,7 +7,6 @@ function Hero() {
       <div className="container">
         <div className="hero__grid">
           <div className="hero__text reveal">
-            <p className="eyebrow">— {profile.role}</p>
             <h1 className="hero__title">
               Del diseño
               <br />
@@ -21,9 +20,6 @@ function Hero() {
             </div>
             <p className="hero__summary">{profile.summary}</p>
             <div className="hero__actions">
-              <a href="#contacto" className="btn btn--primary">
-                Contactar <ArrowUpRight size={16} />
-              </a>
               <a href="#sobre-mi" className="btn btn--ghost">
                 Conóceme <ArrowDown size={16} />
               </a>
@@ -41,7 +37,7 @@ function Hero() {
               </span>
             </div>
             <div className="terminal__body">
-              <p className="terminal__cmd">$ cat idiomas.toml</p>
+              <p className="terminal__cmd">$ cat expediente.toml</p>
               <p className="terminal__comment"># certificados · EOI</p>
               <ul className="bars">
                 {languages.map((lang) => (
@@ -59,7 +55,9 @@ function Hero() {
                 <span className="dot" /> estudiando: ingeniería informática
               </p>
               <p className="terminal__muted">
-                proyecto actual: <b>{projects[0].url.replace('https://', '')}</b>
+                proyecto actual: <a href={projects[0].url} target="_blank" rel="noreferrer" className="plain-link">
+                  <b>{projects[0].url.replace('https://', '')}</b>
+                </a>
                 <span className="cursor" />
               </p>
             </div>

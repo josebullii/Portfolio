@@ -6,6 +6,34 @@ Formato: `## [versión] - AAAA-MM-DD` seguido de los apartados **Añadido**, **C
 
 ---
 
+## [0.3.1] - 2026-11-23
+
+### Eliminado
+- Enlace "Contacto" del menú de navegación (junto a "Proyectos"). Se mantiene el botón "Contacto" de la esquina superior derecha.
+
+### Cambiado
+- En móvil el botón "Contacto" de la esquina superior derecha sigue visible junto al botón del menú (antes se ocultaba), para que la sección de contacto siga siendo accesible.
+
+---
+
+## [0.3.0] - 2026-11-23
+
+Arreglos solicitados en `IDEAS/arreglos.txt`.
+
+### Cambiado
+- Botón del menú superior: "Hablemos" → "Contacto".
+- Terminal del Hero: `cat idiomas.toml` → `cat expediente.toml`.
+- `olivia-agro.com` en la terminal ahora lleva a la web del proyecto, sin aspecto de enlace (mismo color, sin subrayado ni cursor de mano).
+- Proyectos ("En qué trabajo"): "Olivia Agro" → "Olivia".
+- Botón de correo: muestra "Gmail" y abre Gmail en una pestaña nueva con un correo listo para josepudibulli@gmail.com.
+
+### Eliminado
+- Barra de desplazamiento lateral del navegador (el scroll sigue funcionando con ratón, teclado y táctil).
+- Botón "Contactar" del Hero (ya está el botón "Contacto" del menú superior).
+- Texto "— Estudiante de Ingeniería Informática" encima de "Del diseño al código".
+
+---
+
 ## [0.2.0] - 2026-11-23
 
 Cambios solicitados en `IDEAS/Cambios.pdf`.
