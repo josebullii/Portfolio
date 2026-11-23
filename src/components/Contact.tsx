@@ -1,5 +1,5 @@
-import { ArrowUpRight, Mail, MapPin } from 'lucide-react'
-import { contact, profile } from '../data'
+import { ArrowUpRight, Mail } from 'lucide-react'
+import { contact } from '../data'
 
 function Contact() {
   const links = [
@@ -38,10 +38,6 @@ function Contact() {
           ) : (
             <p className="terminal__muted">Datos de contacto próximamente.</p>
           )}
-
-          <p className="contact__location">
-            <MapPin size={16} /> {profile.location}
-          </p>
         </div>
       </div>
     </section>

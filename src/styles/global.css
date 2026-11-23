@@ -551,6 +551,45 @@ p {
   color: var(--text);
 }
 
+.skills {
+  margin-top: 2rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.skills__title {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.skills__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tag--skill {
+  font-size: 0.8rem;
+  padding: 0.45rem 0.9rem;
+  color: var(--text);
+  background: rgba(30, 41, 59, 0.55);
+  transition:
+    border-color 0.25s,
+    color 0.25s;
+}
+
+.tag--skill:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
 .cards {
   list-style: none;
   padding: 0;
@@ -640,15 +679,6 @@ p {
 .contact__text {
   max-width: 32rem;
   margin-bottom: 2rem;
-}
-
-.contact__location {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-top: 2rem;
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
 }
 
 /* Footer */

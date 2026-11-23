@@ -1,5 +1,5 @@
 import { GraduationCap, Languages } from 'lucide-react'
-import { education, profile } from '../data'
+import { education, profile, skills } from '../data'
 
 function About() {
   return (
@@ -13,14 +13,21 @@ function About() {
         <div className="about__grid">
           <div className="about__text reveal">
             <p>
-              Soy <strong>{profile.name}</strong>, aunque casi todo el mundo me conoce como{' '}
+              Soy <strong>{profile.name}</strong>, conocido en la comunidad como{' '}
               <strong>{profile.alias}</strong>. Estudio Ingeniería Informática en la{' '}
               {profile.university}.
             </p>
-            <p>
-              Disfruto convirtiendo ideas en aplicaciones reales, y ahora mismo dedico buena parte de
-              mi tiempo a desarrollar mi propio proyecto web.
-            </p>
+
+            <div className="skills">
+              <h3 className="skills__title">Habilidades</h3>
+              <ul className="skills__list">
+                {skills.map((skill) => (
+                  <li key={skill} className="tag tag--skill">
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
           <ul className="cards">

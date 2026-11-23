@@ -5,7 +5,6 @@ export const profile = {
   alias: 'Bulli',
   role: 'Estudiante de Ingeniería Informática',
   university: 'Universidad de Jaén',
-  location: 'Jaén · ES',
   summary:
     'Estudiante de Ingeniería Informática. Especializado en el desarrollo y gestión de software.',
 }
@@ -17,6 +16,15 @@ export const navItems = [
   { id: 'sobre-mi', label: 'Sobre mí' },
   { id: 'proyectos', label: 'Proyectos' },
 ] as const
+
+export const skills = [
+  'C++',
+  'Java',
+  'Python',
+  'SQL',
+  'Desarrollo Web (HTML, CSS, JS)',
+  'React',
+]
 
 export const languages = [
   { name: 'español', level: 'Nativo', value: 100 },

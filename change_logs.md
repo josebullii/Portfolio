@@ -6,6 +6,31 @@ Formato: `## [versión] - AAAA-MM-DD` seguido de los apartados **Añadido**, **C
 
 ---
 
+## [0.4.2] - 2026-11-23
+
+### Eliminado
+- Ubicación ("Jaén · ES") de la sección de contacto y sus estilos (`.contact__location`).
+
+---
+
+## [0.4.1] - 2026-11-23
+
+### Cambiado
+- "Quién soy": "aunque casi todo el mundo me conoce como Bulli" → "conocido en la comunidad como Bulli".
+
+---
+
+## [0.4.0] - 2026-11-23
+
+### Añadido
+- Apartado **Habilidades** en "Quién soy" con C++, Java, Python, SQL, Desarrollo Web (HTML, CSS, JS) y React, mostradas como etiquetas con hover.
+- Lista `skills` en `src/data.ts` para editar las habilidades.
+
+### Eliminado
+- Segundo párrafo de "Quién soy" ("Disfruto convirtiendo ideas en aplicaciones reales…").
+
+---
+
 ## [0.3.1] - 2026-11-23
 
 ### Eliminado
