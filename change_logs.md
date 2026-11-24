@@ -6,6 +6,13 @@ Formato: `## [versión] - AAAA-MM-DD` seguido de los apartados **Añadido**, **C
 
 ---
 
+## [0.5.1] - 2026-11-24
+
+### Cambiado
+- `favicon_portfolio.png` reducido de 1312×1199 (~570 KB) a 64×64 (~5 KB), recortado a la "B" y centrado.
+
+---
+
 ## [0.5.0] - 2026-11-24
 
 ### Añadido
