@@ -19,6 +19,12 @@ function Projects() {
               rel="noreferrer"
               className="card project reveal"
             >
+              <img
+                src={project.image}
+                alt={`Captura del proyecto ${project.name}`}
+                className="project__image"
+                loading="lazy"
+              />
               <div className="project__top">
                 <span className="card__icon">
                   <Sprout size={20} />

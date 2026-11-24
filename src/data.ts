@@ -58,6 +58,7 @@ export const projects = [
     description:
       'Aplicación web en la que estoy trabajando actualmente. Puedes ver su evolución en olivia-agro.com.',
     tags: ['Web app'],
+    image: '/images/olivia.png',
   },
 ]
 
