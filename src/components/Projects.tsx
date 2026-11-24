@@ -1,4 +1,4 @@
-import { ArrowUpRight, Sprout } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
 import { projects } from '../data'
 
 function Projects() {
@@ -19,15 +19,9 @@ function Projects() {
               rel="noreferrer"
               className="card project reveal"
             >
-              <img
-                src={project.image}
-                alt={`Captura del proyecto ${project.name}`}
-                className="project__image"
-                loading="lazy"
-              />
               <div className="project__top">
-                <span className="card__icon">
-                  <Sprout size={20} />
+                <span className="card__icon project__image">
+                  <img src={project.image} alt={`Logo de ${project.name}`} loading="lazy" />
                 </span>
                 <span className="status">
                   <span className="dot dot--green" /> {project.status.toUpperCase()}

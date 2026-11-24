@@ -625,13 +625,15 @@ p {
 }
 
 .project__image {
+  overflow: hidden;
+  background: #fff;
+}
+
+.project__image img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 100%;
   object-fit: contain;
-  background: #fff;
-  border-radius: 0.75rem;
-  border: 1px solid var(--border);
 }
 
 .project h3 {

@@ -6,6 +6,13 @@ Formato: `## [versión] - AAAA-MM-DD` seguido de los apartados **Añadido**, **C
 
 ---
 
+## [0.5.2] - 2026-11-24
+
+### Cambiado
+- La imagen de Olivia ya no ocupa la parte superior de la tarjeta: ahora va dentro del cuadradito de 40×40 (`.card__icon`) en lugar del icono `Sprout`.
+
+---
+
 ## [0.5.1] - 2026-11-24
 
 ### Cambiado
