@@ -6,6 +6,17 @@ Formato: `## [versión] - AAAA-MM-DD` seguido de los apartados **Añadido**, **C
 
 ---
 
+## [0.5.0] - 2026-11-24
+
+### Añadido
+- Imagen del proyecto Olivia (`public/images/olivia.png`) en la tarjeta de proyectos, con el campo `image` en `src/data.ts` y estilos `.project__image`.
+
+### Cambiado
+- Favicon: `favicon.svg` → `favicon_portfolio.png`.
+- Título de la pestaña: "Jose Pulido Díaz · Bulli" → "Bulli Developer".
+
+---
+
 ## [0.4.2] - 2026-11-23
 
 ### Eliminado
